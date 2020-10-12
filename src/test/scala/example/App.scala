@@ -1,5 +1,5 @@
 package example
 
 object App extends App {
-  println(new C().self())
+  println(valueOf[C#S])
 }

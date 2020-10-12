@@ -1,9 +1,11 @@
 package example
 
-class A
+class A[X] {
+  type S = X
+}
 
 trait B {
   def self(): B = this
 }
 
-class C extends A with B
+class C extends A["hello"] with B
