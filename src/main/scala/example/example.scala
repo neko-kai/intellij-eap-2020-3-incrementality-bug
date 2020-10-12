@@ -8,4 +8,4 @@ trait B {
   def self(): B = this
 }
 
-class C extends A["hello"] with B
+class C extends A["olleh"] with B
